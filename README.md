@@ -1,11 +1,27 @@
 # tahuna-cli releases
 
-Public release artifacts for the Tahuna CLI.
+Public distribution repository for the Tahuna CLI.
 
-This repository hosts compiled binaries and checksums used by Homebrew installs.
+This repository hosts:
 
-## Install (Homebrew)
+- GitHub Release assets (`tahuna_<os>_<arch>.tar.gz`, `checksums.txt`)
+- Installer script (`scripts/install-tahuna.sh`)
+- Stable/nightly channel config (`releases/channels.conf`)
+
+## Install (stable)
 
 ```bash
-brew tap Pazuzzu/tahuna https://github.com/Pazuzzu/homebrew-tahuna
-brew install pazuzzu/tahuna/tahuna
+curl -fsSL https://raw.githubusercontent.com/Pazuzzu/tahuna-cli/main/scripts/install-tahuna.sh | bash
+```
+
+## Install (nightly)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Pazuzzu/tahuna-cli/main/scripts/install-tahuna.sh | bash -s -- --channel nightly
+```
+
+## Install specific version
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Pazuzzu/tahuna-cli/main/scripts/install-tahuna.sh | bash -s -- --version v0.1.0
+```
