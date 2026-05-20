@@ -11,17 +11,17 @@ This repository hosts:
 ## Install (stable)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Pazuzzu/tahuna-cli/main/scripts/install-tahuna.sh | bash
+curl -fsSL https://raw.githubusercontent.com/TahunaLabs/tahuna-cli/main/scripts/install-tahuna.sh | bash
 ```
 
 ## Install (nightly)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Pazuzzu/tahuna-cli/main/scripts/install-tahuna.sh | bash -s -- --channel nightly
+curl -fsSL https://raw.githubusercontent.com/TahunaLabs/tahuna-cli/main/scripts/install-tahuna.sh | bash -s -- --channel nightly
 ```
 
 ## Install specific version
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Pazuzzu/tahuna-cli/main/scripts/install-tahuna.sh | bash -s -- --version v0.1.0
+curl -fsSL https://raw.githubusercontent.com/TahunaLabs/tahuna-cli/main/scripts/install-tahuna.sh | bash -s -- --version v0.1.0
 ```
